@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #473A8D;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+}
+/* Home Page */
+.HomePage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HomePage button{
+    height: 50px;
+    width: 100px;
+    margin: 30px;
+    background-color: green;
+    color: white;
+}
+
+/* Quiz Page */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #473A8D;
+    color: black;
+}
+
+.displayBox{
+    height: 80%;
+    width: 85%;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    margin: 40px 0 20px 0;
+    color: black;
+}
+
+.Numbers{
+    width: 100%;
+    text-align: left;
+    padding-left: 40px;
+    color: black;
+}
+  
+.optionBox{
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+}
+.Questions{
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+.opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 90%;
+    border-radius: 25px;
+    background-color: #1EA1F1;
+    color:white;
+}
+
+.Btn{
+    margin: 50px;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 0 10px;
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid black;
+}
+#pre{
+    background-color: blue;
+}
+#next{
+    background-color: green;
+}
+#quit{
+    background-color: red;
+}
+
+
+/* Result Page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Home */
+.main1{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #473A8D;
+    flex-direction: column;
+}
+
+.displayBox1{
+    height: 50%;
+    width: 45%;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Score{
+    color: #0000FF;
+}
+
+
+.opt1{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.result{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 5%;
+    color: black;
+}
+
+.Btn{
+    margin: 40px;
+}
+
+.PlayAgain{
+    margin: 0 10px;
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    padding: 2px 10px;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #8A8ADB;
+    color: #8A8ADB;
+}
+
+.BackHome{
+    margin: 0 10px;
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    padding: 2px 10px;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #469F46;
+    color: #469F46;
+}
+
+.main1 > h1{
+    color: #027F04;
+    margin: 25px;
+}
+
+.Statement h1{
+    color: #0000FF;
+}
