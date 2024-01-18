@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <div>
-        <Home/>
+        {/* <Home/> */}
         <Quiz/>
-        <Result/>
+        {/* <Result/> */}
       </div>
     </>
   )
